@@ -13,7 +13,7 @@ function runningSum(nums: number[]): number[] {
     for (let i=1; i < nums.length; i++){
         result[i] = result[i-1]+nums[i];
     }
-return result;
+    return result;
 };
 // @lc code=end
 
